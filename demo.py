@@ -1,7 +1,8 @@
 def my_function():
     a = 5
-    b = 10
+    return a
 
-    return d
 
-my_function()
+if __name__ == "__main__":
+    result = my_function()
+    print(result)
